@@ -10,7 +10,7 @@ Identifying the lowest element on the list and placing it in the right spot by s
 ![Selection sort img](https://user-images.githubusercontent.com/99833243/178199013-8704fa67-9ddf-4353-9371-bb0e53e382ca.png)
 
 ### Code Example (Selection sort)
-`
+```
 public void selectionSort(int[] array){
         int i, j, minvalue,minIndex;
         int temp = 0;
@@ -32,7 +32,7 @@ public void selectionSort(int[] array){
                 array[minIndex] = temp;
             }
         }
-    }`
+    }
     
 ## Insertion Sort
     
