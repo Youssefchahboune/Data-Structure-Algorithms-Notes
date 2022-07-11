@@ -11,7 +11,6 @@ Identifying the lowest element on the list and placing it in the right spot by s
 
 ### Code Example (Selection sort)
 ```
-
 public void selectionSort(int[] array){
         int i, j, minvalue,minIndex;
         int temp = 0;
@@ -34,3 +33,5 @@ public void selectionSort(int[] array){
             }
         }
     }
+    ```
+    
