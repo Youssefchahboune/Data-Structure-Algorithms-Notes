@@ -31,4 +31,5 @@ Identifying the lowest element on the list and placing it in the right spot by s
                 array[minIndex] = temp;
             }
         }
-    }```
+    }
+    ```
