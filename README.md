@@ -33,6 +33,7 @@ public void selectionSort(int[] array){
             }
         }
     }
+```
     
 ## Insertion Sort
     
