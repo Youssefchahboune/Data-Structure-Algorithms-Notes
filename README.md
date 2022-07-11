@@ -34,5 +34,3 @@ public void selectionSort(int[] array){
             }
         }
     }
-    
-    ```
