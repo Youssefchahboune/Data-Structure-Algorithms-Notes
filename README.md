@@ -17,7 +17,9 @@ We now build our first for loop using the "i" variable as a countrer after defin
 
 Following that, we construct our second for loop, which will run over each element in the array and compare it to the minvalue; if it finds an element (array[j]) that is lower than the current "minvalue," we will save the new lowest value inside of "minvalue" and its index inside of "minIndex".
 
-From that, we'll see if the minValue we've saved is less than the most farthest left unsorted value (array[i]) If yes, we will perform a swap by first storing the most farthest left value inside of "temp" so that we do not lose that value, and then we make that value (array[i]) equal to the lowest value we found, which is array[minIndex], and then we make that value equal to the value that is stored inside of "temp," and now that element (array[i]) is now sorted, we will move on to the second value, array[i + 1].
+From that, we'll see if the minValue we've saved is less than the most farthest left unsorted value (array[i]) If yes, we will perform a swap by first storing the most farthest left value inside of "temp" so that we do not lose that value, and then we make that value (array[i]) equal to the lowest value we found, which is array[minIndex], and then we make that value equal to the value that is stored inside of "temp," and now that element (array[i]) is now sorted and at the right spot.
+
+Finally, we go to the next unsorted and farthest left element of the list ( array[i + 1] ) and repeat the process until the selection sort is complete.
 
 > Code Example (Selection sort)
 
